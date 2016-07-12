@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Name Application</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="jquery-3.0.0.min.js"></script>
+		<script src="app.js"></script>
+	</head>
+	<body>
+	<div class="container">
+		<header>
+			<h1 id="h11">Комментарии</h1>
+			<p>Простое приложение, позволяющее писать комментарии</p>
+		</header>
+		<main>
+			<section class="comment-input">
+				<p>Добавить Ваш комментарий</p>
+				<input type="text" class="inputCom1">
+				<button>+</button>
+			</section>
+			<section class="comment">
+				<p>Это первый комментарий!</p>
+				<p>Это второй!</p>
+				<p>Это следующий.</p>
+				<p>А это еще один!</p>
+			</section>
+		</main>
+		<footer>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro voluptatibus dolores libero, consequatur numquam eveniet unde pariatur nulla aliquam voluptates labore sit aliquid, consequuntur iure.</p>
+		</footer>
+	</div>
+	</body>
+</html>
